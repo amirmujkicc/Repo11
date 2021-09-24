@@ -1,12 +1,12 @@
 // Only change code below this line
 function myBouncer(arr) {
-    var Boolean = [];
+    var ejectedFalsy = [];
     for (var i = 0; i < arr.length; i++) {
         if (arr[i]) {
-            Boolean.push(arr[i]);
+            ejectedFalsy.push(arr[i]);
         }
     }
-    return Boolean
+    return ejectedFalsy
 }
 // Only change code above this line
 console.log(myBouncer([7, "ate", "", false, 9]));
